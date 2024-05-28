@@ -1,11 +1,24 @@
 .container_nav{
+    position: relative;
     display: grid;
     justify-content: right;
     height: 100%;
     border-right: solid 1px #C1DDE1;
     transition:all ease 500ms;
     overflow: hidden;
+    background-color: #f1f1f1;
+}
+.circle {
+    z-index: 1;
+    width: 100px;
+    height: 100px;
     background-color: #C1DDE1;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+    transform: scale(0);
+    transition: transform 1.2s ease;
 }
 .box_nav{
     display: flex;
@@ -23,6 +36,7 @@
 }
 .icon_menu2{
     position: absolute;
+    z-index: 3;
     top: 50%;
     left: 6px;
     width: 40px;
@@ -39,6 +53,9 @@
     width: 100vw;
     border-right: none;
     transition: all ease 500ms;
+    .circle{
+        transform: scale(26);
+    }
     .image_profile{
         width: 100px;
         margin-right: 10px;
@@ -53,28 +70,28 @@
         transition:all ease 500ms;
     }
 }
-
 .box_info{
     display: flex;
     width: 100%;
+    z-index: 2;
+    .box_pets{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 500px;
+        height: 80px;
+        background-color: #f1f1f1;
+        border-radius: 40px;
+        .image_razas{
+            width: 70px;
+            padding: 5px;
+        }
+    }
 }
 .info{
     width: 90vw;
-    padding-right: 5px;
+    padding-right: 15px;
     display: grid;
     justify-content: center;
     overflow: hidden;
-}
-.box_pets{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 500px;
-    height: 80px;
-    background-color: #f1f1f1;
-    border-radius: 40px;
-    .image_razas{
-        width: 70px;
-        padding: 5px;
-    }
 }

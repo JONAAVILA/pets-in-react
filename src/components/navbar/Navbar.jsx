@@ -18,6 +18,7 @@ export default function Navbar (){
 
     return(
         <div className={`container_nav ${clas}`} >
+            <div className='circle' /> 
             <div className='icon_menu2' onClick={handleNavbar} >
                 <IconMenu2 stroke={2}
                         width={20} 
