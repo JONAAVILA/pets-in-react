@@ -8,5 +8,30 @@
     height: 100%;
 }
 .box_landing{
-    margin-left: 60px;
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    margin-left: 100px;
+}
+.box_heading{
+    display: grid;
+    height: 130%;
+    align-items: flex-end;
+    h1{
+        margin: 0;
+    }
+}
+.box_subheading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+}
+.icons_landing{
+    width: 100px;
+    display: flex;
+    height: 30px;
+    justify-content: space-around;
+    align-content: flex-start   ;
 }

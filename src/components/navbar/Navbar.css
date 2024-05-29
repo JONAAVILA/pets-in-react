@@ -45,16 +45,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f6f860;
+    background-color: #F7ADE3;
     border: solid 2px #fff;
+    transition: all ease 200ms;
    
+}
+.icon_menu2:hover{
+    background-color: #f18cd7;
+    transition: all ease 200ms;
 }
 .on{
     width: 100vw;
     border-right: none;
     transition: all ease 500ms;
     .circle{
-        transform: scale(26);
+        transform: scale(35);
     }
     .image_profile{
         width: 100px;
