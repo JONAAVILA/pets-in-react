@@ -95,3 +95,11 @@
     justify-content: center;
     overflow: hidden;
 }
+
+@media screen and(max-width:1920px){
+    .on{
+        .circle{
+            transform: scale(50);
+        }
+    }
+}
