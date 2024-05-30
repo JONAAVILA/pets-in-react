@@ -9,11 +9,12 @@ export default function Navbar ({handleNavbar, clas}){
         <div className={`container_nav ${clas}`} >
             <div className='circle' /> 
             <div className='icon_menu2' onClick={handleNavbar} >
-                <IconMenu2 className='icon_menu'
-                           stroke={2}
-                           width={20} 
-                           color={'#525252'}
-                           />
+                <svg className='icon_menu' width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path className='top' d="M4 6l16 0" />
+                <path className='middle' d="M4 12l16 0" />
+                <path className='bottom' d="M4 18l16 0" />
+                </svg>
             </div>
             <div className='box_info' >
                 <div className='info' >

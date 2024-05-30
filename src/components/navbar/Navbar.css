@@ -50,15 +50,19 @@
     background-color: #F7ADE3;
     border: solid 2px #fff;
     transition: all ease 300ms;
-   
+    .top{
+        transition:all ease 500ms; 
+    }
+    .middle{
+        transition:all ease 100ms;
+    }
+    .bottom{
+        transition:all ease 500ms;
+    }
 }
 .icon_menu2:hover{
     background-color: #f18cd7;
-    transition: all ease 300ms;
-    .icon_menu{
-        stroke: #fff;
-        transition: all ease 300ms;
-    }
+    transition: all ease 200ms;
 }
 .on{
     width: 100vw;
@@ -72,7 +76,22 @@
         margin-right: 10px;
         transition:all ease 500ms;
     }
-
+    .icon_menu{
+        .top{
+            transform: rotate(45deg) translateX(6px) translateY(-6px);
+            transition:all ease 500ms;
+            position: relative;
+        }
+        .middle{
+            visibility: hidden;
+            transition:all ease 100ms;
+        }
+        .bottom{
+            transform: rotate(-45deg) translateX(-12px);
+            transition:all ease 500ms;
+            position: absolute;
+        }
+    }
 }
 .off{
     width: 54px;

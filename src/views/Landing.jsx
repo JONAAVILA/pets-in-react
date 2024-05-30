@@ -16,7 +16,7 @@ export default function Landing (){
             setClas('off')
         }
     }
-    
+
     return(
         <div className="container_landing" >
             <div className="box_navbar" >
@@ -30,7 +30,7 @@ export default function Landing (){
                     <div>
                         <h2>¿Buscás tu mascota soñada?</h2>
                         <p>
-                        Podemos ayudarte a conseguirla, en unos simples pasos podes tener tu mascota soñada
+                            En Nobleza Canina, nos especializamos en la venta de mascotas de raza con pedigree, asegurando que cada uno de nuestros animales provenga de las mejores líneas de sangre y cumpla con los más altos estándares de calidad y salud.
                         </p>
                     </div>
                 </div>

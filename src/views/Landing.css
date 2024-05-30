@@ -29,13 +29,17 @@
     display: grid;
     align-items: flex-start;
     height: 100%;
+    p{
+        width: 50%;
+        text-wrap: pretty;
+    }
 }
 .icons_landing{
     position: absolute;
     width: 100px;
     bottom: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: flex-start   ;
 }
 .circle_langing{
