@@ -1,5 +1,6 @@
 .container_nav{
     position: relative;
+    z-index: 2;
     display: grid;
     justify-content: right;
     height: 100%;
