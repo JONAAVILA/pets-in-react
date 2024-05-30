@@ -44,6 +44,7 @@
 }
 .circle_langing{
     position: absolute;
+    overflow: hidden;
     width: 100px;
     height: 100px;
     top: 60%;
@@ -53,7 +54,19 @@
     transform: scale(0);
     transition: transform 1.2s ease;
 }
-
+.caniche{
+    position: absolute;
+    right: -500px;
+    bottom: 0;
+    opacity: .2;
+    width: 500px;
+    transition:all 600ms ease;
+}
+.off_caniche{
+    right: 0;
+    opacity: 1;
+    transition: all 600ms ease;
+}
 .off_landing{
     transform: scale(9);
 }

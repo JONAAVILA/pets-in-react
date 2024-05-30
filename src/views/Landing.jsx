@@ -2,6 +2,7 @@ import { IconBrandWhatsapp } from '@tabler/icons-react';
 import { IconBrandMeta } from '@tabler/icons-react';
 import { IconBrandInstagram } from '@tabler/icons-react';
 import Navbar from "../components/navbar/Navbar";
+import caniche from './../assets/caniche-rojo.webp';
 import { useState } from 'react';
 import './Landing.css';
 
@@ -41,6 +42,7 @@ export default function Landing (){
                 </div>
             </div>
             <div className={`circle_langing ${clas}_landing`} /> 
+            <img className={`caniche ${clas}_caniche`} src={caniche} alt="" />
         </div>
     )
 }
