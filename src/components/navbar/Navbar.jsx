@@ -1,5 +1,4 @@
 import profile from './../../assets/profile.png'
-import { IconMenu2 } from '@tabler/icons-react';
 import { IconArrowRight } from '@tabler/icons-react';
 import './Navbar.css'
 
