@@ -1,20 +1,9 @@
 import profile from './../../assets/profile.png'
 import { IconMenu2 } from '@tabler/icons-react';
 import { IconArrowRight } from '@tabler/icons-react';
-import { useState } from 'react';
 import './Navbar.css'
 
-export default function Navbar (){
-
-    const [ clas, setClas ] = useState('off')
-
-    const handleNavbar = ()=>{
-        if(clas === 'off'){
-            setClas('on')
-        }else{
-            setClas('off')
-        }
-    }
+export default function Navbar ({handleNavbar, clas}){
 
     return(
         <div className={`container_nav ${clas}`} >

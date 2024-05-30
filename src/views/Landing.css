@@ -1,6 +1,8 @@
 .container_landing{
+    overflow: hidden;
+    position: relative;
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 .box_navbar{
@@ -34,4 +36,19 @@
     display: flex;
     justify-content: space-around;
     align-content: flex-start   ;
+}
+.circle_langing{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 60%;
+    right: 0;
+    background-color: #C1DDE1;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 1.2s ease;
+}
+
+.off_landing{
+    transform: scale(9);
 }
