@@ -101,10 +101,21 @@
     overflow: hidden;
 }
 
-@media screen and(max-width:1920px){
+
+@media screen and (max-width:1920px){
     .on{
         .circle{
-            transform: scale(50);
+            transform: scale(45);
         }
+    }
+}
+@media screen and (max-width:844px){
+    .on{
+        .circle{
+            transform: scale(18);
+        }
+    }
+    .info{
+        font-size: 10px;
     }
 }
