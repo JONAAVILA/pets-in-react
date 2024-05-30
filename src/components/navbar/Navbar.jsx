@@ -9,10 +9,11 @@ export default function Navbar ({handleNavbar, clas}){
         <div className={`container_nav ${clas}`} >
             <div className='circle' /> 
             <div className='icon_menu2' onClick={handleNavbar} >
-                <IconMenu2 stroke={2}
-                        width={20} 
-                        color={'#525252'}
-                        />
+                <IconMenu2 className='icon_menu'
+                           stroke={2}
+                           width={20} 
+                           color={'#525252'}
+                           />
             </div>
             <div className='box_info' >
                 <div className='info' >
