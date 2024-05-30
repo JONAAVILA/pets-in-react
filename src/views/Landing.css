@@ -12,26 +12,26 @@
     justify-content: left;
     align-items: center;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 .box_heading{
     display: grid;
-    height: 130%;
+    height:100%;
     align-items: flex-end;
     h1{
         margin: 0;
     }
 }
-.box_subheading{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 70%;
+.sub_heading{
+    display: grid;
+    align-items: flex-start;
+    height: 100%;
 }
 .icons_landing{
+    position: absolute;
     width: 100px;
+    bottom: 30px;
     display: flex;
-    height: 30px;
     justify-content: space-around;
     align-content: flex-start   ;
 }
