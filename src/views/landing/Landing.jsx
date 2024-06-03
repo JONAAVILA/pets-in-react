@@ -1,10 +1,11 @@
 import { IconBrandWhatsapp } from '@tabler/icons-react';
 import { IconBrandMeta } from '@tabler/icons-react';
 import { IconBrandInstagram } from '@tabler/icons-react';
-import Navbar from "../components/navbar/Navbar";
-import caniche from './../assets/caniche-rojo.webp';
+import Navbar from "../../components/navbar/Navbar";
+import caniche from '../../assets/caniche-rojo.webp';
 import { useState } from 'react';
 import './Landing.css';
+import Home from '../info/Home';
 
 export default function Landing (){
 
@@ -19,10 +20,11 @@ export default function Landing (){
     }
 
     return(
+        <>
+        <div className="box_navbar" >
+            <Navbar handleNavbar={handleNavbar} clas={clas} />
+        </div>
         <div className="container_landing" >
-            <div className="box_navbar" >
-                <Navbar handleNavbar={handleNavbar} clas={clas} />
-            </div>
             <div className="box_landing" > 
                 <div className="box_heading" >
                     <h1>NOBLEZA CANINA</h1>
@@ -41,8 +43,11 @@ export default function Landing (){
                     <IconBrandWhatsapp stroke={1} width={20} />
                 </div>
             </div>
-            <div className={`circle_langing ${clas}_landing`} /> 
-            <img className={`caniche ${clas}_caniche`} src={caniche} alt="" />
+            <div className={`circle_langing ${clas}_landing`} >
+                <img className={`caniche ${clas}_caniche`} src={caniche} alt="" />
+            </div>
         </div>
+        <Home/>
+        </>
     )
 }

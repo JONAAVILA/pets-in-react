@@ -1,12 +1,15 @@
 .container_landing{
+    position:relative;
+    z-index: 5;
     overflow: hidden;
-    position: relative;
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 105vh;
+    padding-bottom: 10%;
 }
 .box_navbar{
-    position: absolute;
+    position: fixed;
+    z-index: 10;
     height: 100%;
 }
 .box_landing{
@@ -37,7 +40,7 @@
 .icons_landing{
     position: absolute;
     width: 100px;
-    bottom: 30px;
+    bottom: 25%;
     display: flex;
     justify-content: space-between;
     align-content: flex-start   ;
@@ -47,26 +50,27 @@
     overflow: hidden;
     width: 100px;
     height: 100px;
-    top: 60%;
-    right: 0;
+    top: 40%;
+    right: 5%;
     background-color: #C1DDE1;
     border-radius: 50%;
     transform: scale(0);
     transition: transform 1.2s ease;
 }
 .caniche{
-    position: absolute;
-    right: -500px;
-    bottom: 0;
+    position: relative;
+    bottom: -20px;
+    left:-20px;
     opacity: .2;
-    width: 500px;
+    width: 90px;
+    filter: drop-shadow(15px 10px 10px #9c9595);
     transition:all 600ms ease;
 }
 .off_caniche{
     right: 0;
     opacity: 1;
-    transition: all 600ms ease;
+    transition: all 100ms ease;
 }
 .off_landing{
-    transform: scale(9);
+    transform: scale(7);
 }
