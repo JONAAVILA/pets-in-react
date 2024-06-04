@@ -47,7 +47,7 @@ export default function Landing (){
                 <img className={`caniche ${clas}_caniche`} src={caniche} alt="" />
             </div>
         </div>
-        <Home/>
+        <Home clas={clas} />
         </>
     )
 }
