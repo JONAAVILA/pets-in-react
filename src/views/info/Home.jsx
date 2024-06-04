@@ -1,5 +1,6 @@
 import './Home.css'
 import labrador from '../../assets/labrador.webp'
+import Counter from '../../components/counter/Counter';
 
 export default function Home({clas}){
 
@@ -8,18 +9,19 @@ export default function Home({clas}){
     return(
         <>
         <div className="container_info">
-            <div className={`circle_home ${clas}_home`} />
-            <img className={`labrador ${clas}_labrador`} src={labrador}/>
+            <div className={`circle_home ${clas}_home`} >
+                <img className={`labrador ${clas}_labrador`} src={labrador}/>
+            </div>
             <div className="box_left" >
                 <h1>¿PORQUÉ ELEGIRNOS?</h1>
                 <h2>Asesoramiento Profesional</h2>
                 <p>Trabajamos exclusivamente con criadores certificados y reconocidos a nivel nacional e internacional. Cada una de nuestras mascotas cuenta con un pedigree oficial que respalda su pureza y linaje.</p>
                 <div className='box_contador' >
-                    <span>20</span>
+                    <Counter targer='20' />
                     <p>Años dando felicidad</p>
-                    <span>50</span>
+                    <Counter targer='50' />
                     <p>Falimias que confieron en nosotro</p>
-                    <span>110</span>
+                    <Counter targer='110' />
                     <p>Cachorros entrgado a toda latinoamerica</p>
                 </div>
             </div>

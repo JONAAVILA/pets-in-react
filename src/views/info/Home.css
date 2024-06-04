@@ -11,7 +11,6 @@
 }
 .circle_home{
     position: absolute;
-    overflow: hidden;
     width: 100px;
     height: 100px;
     bottom: 30%;
@@ -22,12 +21,12 @@
     transition: transform 1.2s ease;
 }
 .labrador{
-    position: absolute;
-    left:-25px;
     opacity: .2;
-    bottom: 8%;
-    width: 40%;
-    filter: drop-shadow(15px 10px 10px #9c9595);
+    left: 30%;
+    bottom: 15%;
+    width: 60%;
+    position: absolute;
+    filter: drop-shadow(10px 10px 10px #9c9595);
     transition:all 600ms ease;
 }
 .off_labrador{
