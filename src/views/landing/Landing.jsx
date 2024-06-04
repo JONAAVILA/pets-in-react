@@ -1,11 +1,11 @@
 import { IconBrandWhatsapp } from '@tabler/icons-react';
 import { IconBrandMeta } from '@tabler/icons-react';
 import { IconBrandInstagram } from '@tabler/icons-react';
+import { useState } from 'react';
 import Navbar from "../../components/navbar/Navbar";
 import caniche from '../../assets/caniche-rojo.webp';
-import { useState } from 'react';
-import './Landing.css';
 import Home from '../info/Home';
+import './Landing.css';
 
 export default function Landing (){
 
