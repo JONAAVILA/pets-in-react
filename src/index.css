@@ -52,24 +52,40 @@ input{
   border: none;
   border-bottom: solid 1px #fffa;
   font-weight: 500;
+  color: #001B2E;
+}
+input:focus{
+  outline: none;
 }
 input::placeholder{
   color: #001B2E;
 }
 button {
-  button{
   width: 140px;
-  height: 35px;
+  height: 34px;
   margin-top: 10px;
-  font-size: .7rem;
+  font-size: .8rem;
+  border: none;
+  color: #001B2E;
+  font-weight: 600;
+  background-color: #F7ADE3;
+  border-radius: 17px;
+  transition: all ease 200ms;
 }
+button:hover{
+  background-color: #f18cd7;
+  transition: all ease 200ms;
 }
-button:hover {
-  border-color: #646cff;
+textarea{
+  margin: 10px;
+  height: 100px;
+  background-color: #f1f1f1;
+  border: none;
+  color: #001B2E;
+  border-radius: 4px;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+textarea:focus{
+  outline: none;
 }
 
 @media (prefers-color-scheme: light) {

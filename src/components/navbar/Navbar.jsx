@@ -29,4 +29,4 @@ export default function Navbar ({handleNavbar, clas}){
             </div>
         </div>
     )
-}   
+}

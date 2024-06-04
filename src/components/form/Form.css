@@ -4,15 +4,14 @@
     background-color: #C1DDE1;
     border-radius: 10px;
     width: 100%;
-    textarea{
-        margin: 10px;
-        height: 100px;
-        background-color: #f1f1f1;
-        border: none;
+    h2{
+        font-size: 1.5rem;
     }
 }
 .box_button{
     width: 100%;
     display: flex;
     justify-content: center;
+    
+    margin-bottom: 30px;
 }
