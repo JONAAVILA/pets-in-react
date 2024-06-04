@@ -63,7 +63,7 @@
     left:-20px;
     opacity: .2;
     width: 90px;
-    filter: drop-shadow(15px 10px 10px #9c9595);
+    filter: drop-shadow(5px 10px 10px #9c9595);
     transition:all 600ms ease;
 }
 .off_caniche{

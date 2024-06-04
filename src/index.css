@@ -44,17 +44,25 @@ p{
   font-family:"Poppins", sans-serif ;
   font-weight: 400;
 }
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+input{
+  font-family: "Poppins", sans-serif;
+  height: 30px;
+  margin: 10px;
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px #fffa;
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+}
+input::placeholder{
+  color: #001B2E;
+}
+button {
+  button{
+  width: 140px;
+  height: 35px;
+  margin-top: 10px;
+  font-size: .7rem;
+}
 }
 button:hover {
   border-color: #646cff;
