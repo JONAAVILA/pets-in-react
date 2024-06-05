@@ -1,4 +1,5 @@
 import { IconX } from '@tabler/icons-react';
+import { IconMessageForward } from '@tabler/icons-react';
 import { useState } from 'react'
 import validate from './validate'
 import './Form.css'
@@ -133,7 +134,7 @@ export default function Form(){
                 </textarea>
                 {errors && <p>{errors.message}</p>}
                 <div className='box_button' >
-                    <button onClick={handleSubmit} >enviar</button>
+                    <button onClick={handleSubmit} >Enviar <IconMessageForward className='submit' stroke={1} width={20} /></button>
                 </div>
             </form>
         </div>

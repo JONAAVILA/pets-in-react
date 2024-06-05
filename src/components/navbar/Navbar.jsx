@@ -22,13 +22,20 @@ export default function Navbar ({handleNavbar, clas}){
                 </svg>
             </div>
             <div className='box_info' >
-                <div className='info' >
-                    <h1>NUESTRAS RAZAS</h1>
-                    <div className='box_pets' >
-                        <img className='image_razas' src={profile} alt="" />
-                        <IconArrowRight stroke={2} />
+                <div className='info_nav' >
+                    <div>
+                        <h1>NUESTRAS RAZAS</h1>
+                        <h2>Descubre algunas de las razas que ofrecemos:</h2>
+                        <div className='box_pets' >
+                            <img className='image_razas' src={profile} alt="" />
+                            <IconArrowRight stroke={2} />
+                        </div>
                     </div>
-                </div>
+                    <div className='compromise' >
+                        <h2>Compromiso con la Transparencia</h2>
+                        <p>En Mascotas de Elite, valoramos la transparencia y la honestidad. Cada cliente recibe toda la documentación necesaria, incluyendo el pedigree y el historial médico de su nueva mascota. Además, estamos disponibles para resolver cualquier duda que puedas tener antes y después de la compra.</p>
+                    </div>
+                </div>  
                 <div className='box_nav' >
                     <img className='image_profile' src={profile} alt="profile nobleza canina" />
                 </div>

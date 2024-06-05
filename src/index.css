@@ -72,14 +72,18 @@ label{
   font-size: .8rem  ;
 }
 button {
+  display:flex;
+  justify-content: center;
+  align-items: center;
   width: 140px;
   height: 34px;
   margin-top: 10px;
-  font-size: .8rem;
+  font-size: .9rem;
   border: none;
   color: #001B2E;
   font-weight: 600;
   background-color: #F7ADE3;
+  border: solid 2px #fff;
   border-radius: 17px;
   transition: all ease 200ms;
 }

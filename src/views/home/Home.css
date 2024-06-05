@@ -103,7 +103,10 @@
     height: 200px;
     background-color: #f1f1f1;
     .icon_contact{
-        padding-right: 2px;
+        padding-right: 3px;
+    }
+    .map{
+        margin-left: -1px;
     }
     p{
         display: flex;

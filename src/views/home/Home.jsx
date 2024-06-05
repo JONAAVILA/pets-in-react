@@ -45,17 +45,17 @@ export default function Home({clas}){
         <div className='box_contact' >
             <h2>Contactos</h2>
             <div>
-                <p><IconMail className='icon_contact' stroke={2} width={20} />furrycachorros@furrycachorros.com</p>
+                <p><IconMail className='icon_contact' stroke={1} width={20} />furrycachorros@furrycachorros.com</p>
                 <p>
-                    <a href="https://wa.link/wo5fbg"><IconBrandWhatsapp className='icon_contact' stroke={2} width={20}/>+54 911 5221-6139</a>
+                    <a href="https://wa.link/wo5fbg"><IconBrandWhatsapp className='icon_contact' stroke={1} width={20}/>+54 911 5221-6139</a>
                 </p>
                 <p>
-                    <a href="https://wa.link/imsfli"><IconBrandWhatsapp className='icon_contact' stroke={2} width={20}/>+54 911 7145-2406</a>
+                    <a href="https://wa.link/imsfli"><IconBrandWhatsapp className='icon_contact' stroke={1} width={20}/>+54 911 7145-2406</a>
                 </p>
-                <p><IconMapPin className='icon_contact' stroke={2} width={20}/>Buenos Aires, Argentina</p>
+                <p><IconMapPin className='icon_contact map' stroke={1} width={22}/>Buenos Aires, Argentina</p>
             </div>
         </div>
-        <footer className='footer' >{`Todos los derechos recervados ©️ Nobleza Canina ${currentYear} - powered by `}<a href='https://www.google.com/search?q=Jonatan+Avila+Desarrollador+Web+Full+Stack+-+Dise%C3%B1ador+Web&stick=H4sIAAAAAAAA_-NgU1I1qLA0TTQ2SktOSjFPNktLNDG3MqhISTE1NzA3tDA1MzdMszRIXcRq7ZWfl1iSmKfgWJaZk6jgklqcWFSUn5OTmJJfpBCemqTgVpqToxBckpicraCr4JJZnHp4I0wOALOQqlZnAAAA&hl=es-419&mat=CVgOLeHDGpajElcBezTaAcrisFWb4vYmoNvFKCjnUfwmllQE00eOHqFyUGvyW8QKj3LTJ4c6ZZ4feRc0ltuD2nOuIx_t-lS0cF7qBHctfjg_-Z-lnQJBiV4V5WhUeV7bqIk&authuser=0' >Jonatan Avila Diseño y Desarrollo Web</a></footer>
+        <footer className='footer'>{`Todos los derechos recervados ©️ Furrys Cachorros ${currentYear} - powered by `}<a href='https://www.google.com/search?q=Jonatan+Avila+Desarrollador+Web+Full+Stack+-+Dise%C3%B1ador+Web&stick=H4sIAAAAAAAA_-NgU1I1qLA0TTQ2SktOSjFPNktLNDG3MqhISTE1NzA3tDA1MzdMszRIXcRq7ZWfl1iSmKfgWJaZk6jgklqcWFSUn5OTmJJfpBCemqTgVpqToxBckpicraCr4JJZnHp4I0wOALOQqlZnAAAA&hl=es-419&mat=CVgOLeHDGpajElcBezTaAcrisFWb4vYmoNvFKCjnUfwmllQE00eOHqFyUGvyW8QKj3LTJ4c6ZZ4feRc0ltuD2nOuIx_t-lS0cF7qBHctfjg_-Z-lnQJBiV4V5WhUeV7bqIk&authuser=0' >Jonatan Avila Diseño y Desarrollo Web</a></footer>
         </>
     )
 } 

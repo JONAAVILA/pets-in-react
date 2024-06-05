@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     bottom: 30%;
-    right: 35%;
+    right: 32vw;
     height: 80px;
     width: 350px;
     border-radius: 10px;
@@ -33,6 +33,10 @@
     p{
         font-weight: 500;
     }
+}
+.alert:hover{
+    background-color: #f18cd7;
+    transition: all ease 200ms;
 }
 .IconX{
     position: absolute;
@@ -44,14 +48,12 @@
     transform: rotate(45deg);
     transition: all ease 200ms;
 }
-.alert:hover{
-    background-color: #f18cd7;
-    transition: all ease 200ms;
-}
 .box_button{
     width: 100%;
     display: flex;
     justify-content: center;
-    
     margin-bottom: 30px;
+    .submit{
+        margin-left: 5px;
+    }
 }
