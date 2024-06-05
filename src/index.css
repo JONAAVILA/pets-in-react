@@ -15,7 +15,15 @@
 :root::-webkit-scrollbar{
     width: 0;
 }
-
+a{
+  text-decoration: none;
+  color: #001B2E;
+  transition: all ease 200ms;
+}
+a:hover {
+  color: #F7ADE3;
+  transition: all ease 200ms;
+}
 body {
   margin: 0;
   display: flex;
@@ -94,10 +102,10 @@ textarea:focus{
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #f1f1f1;
   }
   a:hover {
-    color: #747bff;
+    color: #F7ADE3;
   }
   button {
     background-color: #f9f9f9;

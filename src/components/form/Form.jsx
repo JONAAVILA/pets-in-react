@@ -80,7 +80,7 @@ export default function Form(){
     }
 
     return(
-        <>
+        <div className='container_form '>
             {alert && <div className='alert' >
                         <p>{alert}</p>
                         <IconX onClick={handleClose} className='IconX' stroke={2} />
@@ -136,6 +136,6 @@ export default function Form(){
                     <button onClick={handleSubmit} >enviar</button>
                 </div>
             </form>
-        </>
+        </div>
     )
 }   

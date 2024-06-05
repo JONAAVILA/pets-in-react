@@ -40,7 +40,9 @@ export default function Landing (){
                 <div className='icons_landing' >
                     <IconBrandInstagram stroke={1} width={20} />
                     <IconBrandMeta stroke={1} width={20} />
-                    <IconBrandWhatsapp stroke={1} width={20} />
+                    <a href="href=https://wa.link/imsfli">
+                        <IconBrandWhatsapp stroke={1} width={20} />
+                    </a>
                 </div>
             </div>
             <div className={`circle_langing ${clas}_landing`} >

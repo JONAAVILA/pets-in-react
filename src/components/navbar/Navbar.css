@@ -49,6 +49,8 @@
     background-color: #F7ADE3;
     border: solid 2px #fff;
     transition: all ease 300ms;
+    stroke-width: 2px;
+    stroke-linecap:round;
     .top{
         transition:all ease 500ms; 
     }

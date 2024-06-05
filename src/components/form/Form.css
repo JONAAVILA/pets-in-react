@@ -1,3 +1,7 @@
+.container_form{
+    position: relative;
+    z-index: 6;
+}
 .form{
     display: grid;
     width: 100%;

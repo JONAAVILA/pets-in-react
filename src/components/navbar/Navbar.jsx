@@ -8,7 +8,13 @@ export default function Navbar ({handleNavbar, clas}){
         <div className={`container_nav ${clas}`} >
             <div className='circle' /> 
             <div className='icon_menu2' onClick={handleNavbar} >
-                <svg className='icon_menu' width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <svg className='icon_menu'
+                     width="24" 
+                     height="24" 
+                     viewBox="0 0 24 24" 
+                     fill="none" 
+                     stroke="currentColor" 
+                     >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path className='top' d="M4 6l16 0" />
                 <path className='middle' d="M4 12l16 0" />
