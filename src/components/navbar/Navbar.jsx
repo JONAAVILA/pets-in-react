@@ -24,7 +24,7 @@ export default function Navbar ({handleNavbar, clas}){
                     </div>
                 </div>
                 <div className='box_nav' >
-                    <img className='image_profile' src={profile} alt="" />
+                    <img className='image_profile' src={profile} alt="profile nobleza canina" />
                 </div>
             </div>
         </div>

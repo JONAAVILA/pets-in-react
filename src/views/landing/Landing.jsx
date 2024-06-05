@@ -4,7 +4,7 @@ import { IconBrandInstagram } from '@tabler/icons-react';
 import { useState } from 'react';
 import Navbar from "../../components/navbar/Navbar";
 import caniche from '../../assets/caniche-rojo.webp';
-import Home from '../info/Home';
+import Home from '../home/Home';
 import './Landing.css';
 
 export default function Landing (){
@@ -27,13 +27,13 @@ export default function Landing (){
         <div className="container_landing" >
             <div className="box_landing" > 
                 <div className="box_heading" >
-                    <h1>NOBLEZA CANINA</h1>
+                    <h1>FURRYS CACHORROS</h1>
                 </div>
                 <div className='sub_heading' >
                     <div>
                         <h2>¿Buscás tu mascota soñada?</h2>
                         <p>
-                            En Nobleza Canina, nos especializamos en la venta de mascotas de raza con pedigree, asegurando que cada uno de nuestros animales provenga de las mejores líneas de sangre y cumpla con los más altos estándares de calidad y salud.
+                            En Furrys Cachorros, nos especializamos en la venta de mascotas de raza con pedigree, asegurando que cada uno de nuestros animales provenga de las mejores líneas de sangre y cumpla con los más altos estándares de calidad y salud.
                         </p>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ export default function Landing (){
                 </div>
             </div>
             <div className={`circle_langing ${clas}_landing`} >
-                <img className={`caniche ${clas}_caniche`} src={caniche} alt="" />
+                <img className={`caniche ${clas}_caniche`} src={caniche} alt="caniche colorado" />
             </div>
         </div>
         <Home clas={clas} />

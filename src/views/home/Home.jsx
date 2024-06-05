@@ -11,7 +11,7 @@ export default function Home({clas}){
         <>
         <div className="container_info">
             <div className={`circle_home ${clas}_home`} >
-                <img className={`labrador ${clas}_labrador`} src={labrador}/>
+                <img className={`labrador ${clas}_labrador`} src={labrador} alt='labrador chocolate'/>
             </div>
             <div className="box_left" >
                 <h1>¿PORQUÉ ELEGIRNOS?</h1>

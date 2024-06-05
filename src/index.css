@@ -25,7 +25,7 @@ body {
 }
 
 h1 {
-  font-size: 4.5em;
+  font-size: 3.8em;
   line-height: 1.1;
 }
 
@@ -46,7 +46,7 @@ p{
 }
 input{
   font-family: "Poppins", sans-serif;
-  height: 30px;
+  height: 15px;
   margin: 10px;
   background: transparent;
   border: none;
@@ -57,8 +57,11 @@ input{
 input:focus{
   outline: none;
 }
-input::placeholder{
-  color: #001B2E;
+label{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding-left: 10px;
+  font-size: .8rem  ;
 }
 button {
   width: 140px;
