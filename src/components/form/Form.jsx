@@ -1,6 +1,6 @@
+import { IconX } from '@tabler/icons-react';
 import { useState } from 'react'
 import validate from './validate'
-import { IconX } from '@tabler/icons-react';
 import './Form.css'
 
 export default function Form(){
@@ -89,6 +89,7 @@ export default function Form(){
                 <h2>Consultas</h2>
                 <label htmlFor="prueba" style={{display:'none'}} >prueba</label>
                 <input type="text" 
+                       id='prueba'
                        onChange={()=>setPrueba('bot')}
                        value={prueba}
                        style={{display:'none'}}
