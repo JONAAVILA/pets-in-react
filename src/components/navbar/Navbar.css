@@ -2,10 +2,11 @@
     position: relative;
     display: grid;
     justify-content: right;
+    overflow: hidden;
     height: 100%;
+    width: 100vw;
     border-right: solid 1px #C1DDE1;
     transition:all ease 500ms;
-    overflow: hidden;
     background-color: #f1f1f1;
 }
 .circle {
@@ -20,27 +21,27 @@
     transform: scale(0);
     transition: transform 1.2s ease;
 }
-.box_nav{
+.box_nav_image{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    .image_profile{
-        margin-top: 10px;
-        margin-right: 6px;
-        width: 40px;
-        border-radius: 50%;
-        border: solid 3px #fff;
-        color:#525252;
-        transition:all ease 500ms;
-    }
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 3px;
+}
+.image_profile{
+    margin-top: 10px;
+    width: 36px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+    color:#525252;
+    transition:all ease 500ms;
 }
 .icon_menu2{
     position: absolute;
     z-index: 3;
     bottom: 50%;
-    left: 6px;
-    width: 30px;
-    height: 30px;
+    left: 4px;
+    width: 28px;
+    height: 28;
     padding: 5px;
     border-radius: 50%;
     display: flex;
@@ -65,6 +66,125 @@
     background-color: #f18cd7;
     transition: all ease 200ms;
 }
+
+.container_info_nav{
+    display: flex;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+    width: 95vw;
+}
+.box_nav{
+    display: flex;
+}
+
+.box_info_nav{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding-top:30px;
+    padding: 30px;
+    width: 100%;
+    h1{
+        font-size: 2.5rem;
+        margin-top: 0;
+    }
+}
+
+.box_tittle_nav{
+    height: 100%;
+    h1, h2{
+        padding-left: 10px;
+    }
+}
+
+.box_pets_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    height: 80px;
+    border-radius: 60px;
+}
+.IconArrowRight_nav{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F7ADE3;
+    transition: all ease 200ms;
+}
+.IconArrowRight_nav:hover{
+    background-color: #f18cd7;
+    transition: all ease 200ms;
+
+}
+.image_razas{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.compromise_nav{
+    display: grid;
+    align-content: flex-start;
+    height: 100%;
+    padding-inline: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    text-wrap: pretty;
+    h2{
+        display: flex;
+        align-items: center;
+    }
+    .IconShield_nav{
+        margin-right: 3px;
+        color: #FFB600;
+        fill:#FFB600
+    }
+}
+
+.box_contact_nav{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    padding-top: 90px;
+}
+
+.contact_nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    .icon_contact_nav{
+        padding-right: 3px;
+    }
+    .map_nav{
+        margin-left: -1px;
+    }
+    p{
+        display: flex;
+        align-items: center;
+        margin: 0; 
+        a{
+            display: flex;
+            align-items: center;
+        }   
+    }
+}
+
+.box_payment_nav{
+    padding-top: 55px;
+    height:100%;
+}
+
 .on{
     width: 100vw;
     border-right: none;
@@ -95,44 +215,10 @@
     }
 }
 .off{
-    width: 54px;
+    width: 50px;
     transition:all ease 500ms;
     .image_profile{
         transition:all ease 500ms;
-    }
-}
-.box_info{
-    display: flex;
-    width: 100%;
-    z-index: 2;
-    h1{
-        font-size: 2.5rem;
-    }
-}
-.info_nav{
-    width: 90vw;
-    display: grid;
-    justify-content: center;
-    overflow: hidden;
-    text-align: left;
-    padding-left: 5%;
-    .box_pets{
-        display:flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 500px;
-        height: 80px;
-        background-color: #f1f1f1;
-        border-radius: 40px;
-        .image_razas{
-            width: 70px;
-            padding: 5px;
-        }
-    }
-}
-.compromise{
-    p{
-        width: 50%;
     }
 }
 
@@ -144,12 +230,67 @@
     }
 }
 @media screen and (max-width:844px){
+    .off{
+        width: 44px;
+    }
     .on{
         .circle{
             transform: scale(18);
         }
+        .image_profile{
+            width: 60px;
+        }
     }
-    .info{
-        font-size: 10px;
+    .container_nav{
+        padding-left: 5px;
+    }
+    .box_nav{
+        margin-top: 5px;
+        flex-direction: column;
+    }
+    .box_info_nav{
+        width: 90%;
+        padding-right: 0;
+    }
+    .box_tittle_nav{
+        h1{
+            font-size: 1.2rem;
+        }
+        h2{
+            font-size: .8rem;
+        }
+    }
+    .box_pets_nav{
+        height: 30px;
+        border-radius: 30px;
+        padding-inline: 5px;
+        margin-bottom: 10px;
+        .image_razas{
+            width: 40px;
+        }
+        .IconArrowRight_nav{
+            width: 40px;
+            margin-right: 0;
+        }
+    }
+    .compromise_nav{
+        h2{
+            font-size: .7rem;
+        }
+        p{
+            font-size: .6rem;
+        }
+    }
+    .box_contact_nav{
+        padding-top: 0;
+        padding-left: 30px;
+        padding-right: 0;
+        width: 90%;
+        h2{
+            font-size: .7rem;
+            p{
+                font-size: .6rem;
+            }
+        }
     }
 }
