@@ -7,7 +7,7 @@
     height: 105vh;
     padding-bottom: 10%;
 }
-.box_navbar{
+.box_navbar_landing{
     position: fixed;
     z-index: 10;
     height: 100%;
