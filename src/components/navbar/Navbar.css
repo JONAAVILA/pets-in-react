@@ -4,7 +4,7 @@
     justify-content: right;
     overflow: hidden;
     height: 100%;
-    width: 100vw;
+    width: 100%;
     border-right: solid 1px #C1DDE1;
     transition:all ease 500ms;
     background-color: #f1f1f1;
