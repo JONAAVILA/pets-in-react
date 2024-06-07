@@ -192,6 +192,9 @@
     .circle{
         transform: scale(35);
     }
+    .container_nav{
+        position: fixed;
+    }
     .image_profile{
         width: 100px;
         margin-right: 10px;
