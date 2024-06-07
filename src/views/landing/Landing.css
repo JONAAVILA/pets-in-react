@@ -1,5 +1,5 @@
 .container_root{
-    height: 100vh;
+    height: 99vh;
     width: 100vw;
 }
 .box_root{
@@ -81,7 +81,3 @@
 .off_landing{
     transform: scale(7);
 }
-
-/* @media screen and (max_width:844px) {
-    
-} */
