@@ -1,0 +1,30 @@
+.container_breeds{
+    position:fixed;
+    background-color: #f1f1f1;
+    border: solid 1px #C1DDE1;
+    border-radius: 10px;
+    z-index: 10;
+    top:10px;
+    left: 80px;
+    right: 10px;
+    bottom: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+}
+.box_breeds{
+    width: 300px;
+    height: 150px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+}

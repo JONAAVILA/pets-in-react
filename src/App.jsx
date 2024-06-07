@@ -1,5 +1,5 @@
-import './App.css'
 import Landing from './views/landing/Landing'
+import './App.css'
 
 function App() {
 

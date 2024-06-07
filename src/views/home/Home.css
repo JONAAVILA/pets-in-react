@@ -122,8 +122,9 @@
 
 @media screen and (max-width:450px) and (max-height: 900px){
     .container_info{
+        margin-top: 0;
         flex-direction: column;
-        height: 250vh;
+        height: 230vh;
     }
     .box_left{
         width: 90%;

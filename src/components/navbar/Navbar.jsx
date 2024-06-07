@@ -5,11 +5,13 @@ import { IconMapPin } from '@tabler/icons-react';
 import { IconMail } from '@tabler/icons-react';
 import profile from './../../assets/profile.png'
 import './Navbar.css'
+import Breeds from '../../views/breeds/Breeds';
 
 export default function Navbar ({handleNavbar, clas}){
 
     return(
         <div className={`container_nav ${clas}`} >
+            {/* <Breeds/> */}
             <div className='circle' /> 
             <div className='icon_menu2' onClick={handleNavbar} >
                 <svg className='icon_menu'
