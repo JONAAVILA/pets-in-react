@@ -41,8 +41,10 @@ export default function Landing (){
                         <div className='icons_landing' >
                             <IconBrandInstagram stroke={1} width={20} />
                             <IconBrandMeta stroke={1} width={20} />
-                            <a href="href=https://wa.link/imsfli">
-                                <IconBrandWhatsapp stroke={1} width={20} />
+                            <a href="href=https://wa.link/imsfli"
+                               target='_blank'
+                               rel='noreferrer'>
+                               <IconBrandWhatsapp stroke={1} width={20} />
                             </a>
                         </div>
                     </div>
