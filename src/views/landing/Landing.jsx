@@ -24,7 +24,7 @@ export default function Landing (){
             <div className="box_navbar_landing" >
                 <Navbar handleNavbar={handleNavbar} clas={clas} />
             </div>
-            <div className='box_root' >
+            <div className={`box_root ${clas}_root`}>
                 <div className="container_landing" >
                     <div className="box_landing" > 
                         <div className="box_heading" >
