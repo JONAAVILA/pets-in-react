@@ -13,8 +13,8 @@ export default function Navbar ({handleNavbar, clas}){
             <div className='circle' /> 
             <div className='icon_menu2' onClick={handleNavbar} >
                 <svg className='icon_menu'
-                     width="24" 
-                     height="24" 
+                     width="20" 
+                     height="23" 
                      viewBox="0 0 24 24" 
                      fill="none" 
                      stroke="currentColor" 
