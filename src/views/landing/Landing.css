@@ -88,13 +88,13 @@
     position: fixed;
 }
 
-@media screen and (max-width:844px){
+@media screen and (max-width:450px)and (max-height: 900px){
     .box_landing{
-        height: 50%;
+        height: 40%;
         align-items: flex-start;
     }
     .icons_landing{
-        bottom: 10%;
+        bottom: 15%;
     }
     .box_heading{
         margin-top: 50px;
