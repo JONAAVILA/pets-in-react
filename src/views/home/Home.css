@@ -123,7 +123,7 @@
 @media screen and (max-width:450px) and (max-height: 900px){
     .container_info{
         flex-direction: column;
-        height: 270vh;
+        height: 250vh;
     }
     .box_left{
         width: 90%;
