@@ -1,10 +1,15 @@
 import { IconX } from '@tabler/icons-react';
+import emailjs from 'emailjs-com';
 import { IconMessageForward } from '@tabler/icons-react';
 import { useState } from 'react'
 import validate from './validate'
 import './Form.css'
 
 export default function Form(){
+
+    const SERVICE_ID = import.meta.env.VITE_SERVICE_ID
+    const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID
+    const USER_ID = import.meta.env.VITE_USER_ID
 
     const [ prueba, setPrueba ] = useState('')
     const [ errors, setErrors ] = useState({})
@@ -66,6 +71,23 @@ export default function Form(){
                 setPrueba('')
                 return
             }
+            const templateParams = {
+                from_name: `👋 ${inputValue.name} ${inputValue.surname}`,
+                from_email: inputValue.email,
+                message: `Soy de ${inputValue.country} y mi consulta es... ${inputValue.message}`
+            }
+
+            emailjs.send(
+                SERVICE_ID,
+                TEMPLATE_ID,
+                templateParams,
+                USER_ID
+            ).then((response) => {
+              console.log('SUCCESS!', response.status, response.text)
+            }).catch((error) => {
+              console.error('FAILED...', error)
+            })
+
             setInputValue({
                 name: '',
                 surname:'',
