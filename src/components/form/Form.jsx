@@ -80,8 +80,8 @@ export default function Form(){
             emailjs.send(
                 SERVICE_ID,
                 TEMPLATE_ID,
-                USER_ID,
-                templateParams
+                templateParams,
+                USER_ID
             ).then((response) => {
               console.log('SUCCESS!', response.status, response.text)
             }).catch((error) => {
