@@ -32,6 +32,7 @@
     height:100%;
     align-items: flex-end;
     h1{
+        color: #ff5d5d;
         margin: 0;
         z-index: 1;
     }
@@ -66,16 +67,16 @@
     transform: scale(0);
     transition: transform 1.2s ease;
 }
-.caniche{
+.beagle{
     position: relative;
     bottom: -20px;
-    left:-20px;
+    left:-10px;
     opacity: .2;
-    width: 90px;
-    filter: drop-shadow(5px 10px 10px #9c9595);
+    width: 50px;
+    filter: drop-shadow(10px 10px 10px #9c9595);
     transition:all 600ms ease;
 }
-.off_caniche{
+.off_beagle{
     right: 0;
     opacity: 1;
     transition: all 100ms ease;

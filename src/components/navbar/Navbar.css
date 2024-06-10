@@ -47,8 +47,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F7ADE3;
+    background-color: #ff5d5d;
     border: solid 2px #fff;
+    color: #fff;
     transition: all ease 300ms;
     stroke-width: 2px;
     stroke-linecap:round;
@@ -63,7 +64,7 @@
     }
 }
 .icon_menu2:hover{
-    background-color: #f18cd7;
+    background-color: #cc3030;
     transition: all ease 200ms;
 }
 
@@ -120,11 +121,12 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #F7ADE3;
+    color: #f1f1f1;
+    background-color: #ff5d5d;
     transition: all ease 200ms;
 }
 .IconArrowRight_nav:hover{
-    background-color: #f18cd7;
+    background-color: #cc3030;
     transition: all ease 200ms;
 
 }

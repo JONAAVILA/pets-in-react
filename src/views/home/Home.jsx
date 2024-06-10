@@ -24,9 +24,9 @@ export default function Home({clas}){
                     <Counter targer='20' />
                     <p>Años dando felicidad</p>
                     <Counter targer='50' />
-                    <p>Falimias que confieron en nosotro</p>
-                    <Counter targer='110' />
-                    <p>Cachorros entrgado a toda latinoamerica</p>
+                    <p>Familias que confiaron en nosotros</p>
+                    <Counter targer='600' />
+                    <p>Cachorros entregados a toda latinoamerica</p>
                 </div>
             </div>
             <div className='box_rigth' >

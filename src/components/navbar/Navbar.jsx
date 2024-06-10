@@ -5,7 +5,7 @@ import { IconMapPin } from '@tabler/icons-react';
 import { IconMail } from '@tabler/icons-react';
 import profile from './../../assets/profile.png'
 import './Navbar.css'
-import Breeds from '../../views/breeds/Breeds';
+// import Breeds from '../../views/breeds/Breeds';
 
 export default function Navbar ({handleNavbar, clas}){
 

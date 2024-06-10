@@ -28,14 +28,15 @@
     height: 80px;
     width: 350px;
     border-radius: 10px;
-    background-color: #F7ADE3;
+    color: #f1f1f1;
+    background-color: #ff5d5d;
     transition: all ease 200ms;
     p{
         font-weight: 500;
     }
 }
 .alert:hover{
-    background-color: #f18cd7;
+    background-color: #cc3030;
     transition: all ease 200ms;
 }
 .IconX{

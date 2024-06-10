@@ -3,7 +3,7 @@ import { IconBrandMeta } from '@tabler/icons-react';
 import { IconBrandInstagram } from '@tabler/icons-react';
 import { useState } from 'react';
 import Navbar from "../../components/navbar/Navbar";
-import caniche from '../../assets/caniche-rojo.webp';
+import beagle from '../../assets/beagle.webp';
 import Home from '../home/Home';
 import './Landing.css';
 
@@ -49,7 +49,7 @@ export default function Landing (){
                         </div>
                     </div>
                     <div className={`circle_langing ${clas}_landing`} >
-                        <img className={`caniche ${clas}_caniche`} src={caniche} alt="caniche colorado" />
+                        <img className={`beagle ${clas}_beagle`} src={beagle} alt="cachorro beagle" />
                     </div>
                 </div>
                 <Home clas={clas} />

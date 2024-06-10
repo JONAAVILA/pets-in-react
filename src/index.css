@@ -82,13 +82,14 @@ button {
   border: none;
   color: #001B2E;
   font-weight: 600;
-  background-color: #F7ADE3;
+  background-color: #ff5d5d;
   border: solid 2px #fff;
+  color: #f1f1f1;
   border-radius: 17px;
   transition: all ease 200ms;
 }
 button:hover{
-  background-color: #f18cd7;
+  background-color: #cc3030;
   transition: all ease 200ms;
 }
 textarea{
