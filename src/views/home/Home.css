@@ -169,9 +169,9 @@
 
 @media screen and (max-width:1950px){
     .container_info{
-        height: 160vh;
+        height: 120vh;
     }
     .off_home{
-        transform: scale(10);
+        transform: scale(7);
     }
 }
