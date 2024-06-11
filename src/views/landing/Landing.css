@@ -117,3 +117,12 @@
         transform: scale(5);
     }
 }
+
+@media screen and (max-width:1950px){
+    .box_heading{
+        font-size: 1.5rem;
+    }
+    .off_landing{
+        transform: scale(10);
+    }
+}

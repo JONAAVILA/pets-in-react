@@ -166,3 +166,12 @@
         height: 200vh;
     }
 }
+
+@media screen and (max-width:1950px){
+    .container_info{
+        height: 160vh;
+    }
+    .off_home{
+        transform: scale(10);
+    }
+}
