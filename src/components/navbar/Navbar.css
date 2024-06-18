@@ -7,7 +7,7 @@
     width: 100%;
     border-right: solid 1px #C1DDE1;
     transition:all ease 500ms;
-    background-color: #f1f1f1;
+    background-color: #ffff ;
 }
 .circle {
     z-index: 1;
@@ -47,7 +47,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ff5d5d;
+    background-color: #b10000;
     border: solid 2px #fff;
     color: #fff;
     transition: all ease 300ms;
@@ -122,7 +122,7 @@
     height: 40px;
     border-radius: 50%;
     color: #f1f1f1;
-    background-color: #ff5d5d;
+    background-color: #b10000;
     transition: all ease 200ms;
 }
 .IconArrowRight_nav:hover{

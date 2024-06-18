@@ -34,7 +34,7 @@ export default function Landing (){
                             <div>
                                 <h2>¿Buscás tu mascota soñada?</h2>
                                 <p>
-                                    En Furrys Cachorros, nos especializamos en la venta de mascotas de raza con pedigree, asegurando que cada uno de nuestros animales provenga de las mejores líneas de sangre y cumpla con los más altos estándares de calidad y salud.
+                                    En Furrys Cachorros, nos especializamos en la venta de mascotas de razas puras, asegurando que cada uno de nuestros animales provenga de las mejores líneas de sangre y cumpla con los más altos estándares de calidad y salud.
                                 </p>
                             </div>
                         </div>

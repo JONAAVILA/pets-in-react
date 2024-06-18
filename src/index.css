@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: #001B2E;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,7 +21,7 @@ a{
   transition: all ease 200ms;
 }
 a:hover {
-  color: #F7ADE3;
+  color: #cc3030;
   transition: all ease 200ms;
 }
 body {
@@ -82,14 +82,14 @@ button {
   border: none;
   color: #001B2E;
   font-weight: 600;
-  background-color: #ff5d5d;
+  background: #b10000;
   border: solid 2px #fff;
   color: #f1f1f1;
   border-radius: 17px;
   transition: all ease 200ms;
 }
 button:hover{
-  background-color: #cc3030;
+  background: #cc3030;
   transition: all ease 200ms;
 }
 textarea{
