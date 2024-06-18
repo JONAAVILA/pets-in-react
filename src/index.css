@@ -1,5 +1,6 @@
 :root {
   font-family: "Krona One", sans-serif;
+  font-display: swap;
   line-height: 1.5;
   font-weight: 400;
 
@@ -41,19 +42,23 @@ h2{
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  font-display: swap;
 }
 
 h3{
   font-family: "Poppins", sans-serif;
+  font-display: swap;
 }
 
 p{
   font-size: 13px;
   font-family:"Poppins", sans-serif ;
   font-weight: 400;
+  font-display: swap;
 }
 input{
   font-family: "Poppins", sans-serif;
+  font-display: swap;
   height: 15px;
   margin: 10px;
   background: transparent;
@@ -67,6 +72,7 @@ input:focus{
 }
 label{
   font-family: "Poppins", sans-serif;
+  font-display: swap;
   font-weight: 500;
   padding-left: 10px;
   font-size: .8rem  ;
