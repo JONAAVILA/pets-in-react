@@ -28,7 +28,7 @@ export default function Landing (){
                 <div className="container_landing" >
                     <div className="box_landing" > 
                         <div className="box_heading" >
-                            <h1>FURRYS CACHORROS</h1>
+                            <h1>FURRYSCACHORROS</h1>
                         </div>
                         <div className='sub_heading' >
                             <div>

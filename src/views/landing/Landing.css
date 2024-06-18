@@ -118,7 +118,7 @@
     }
 }
 
-@media screen and (max-width:1950px){
+@media screen and (max-width:1950px) and (max-heigth:1080px){
     .box_heading{
         font-size: 1.5rem;
     }

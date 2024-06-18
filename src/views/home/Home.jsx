@@ -19,7 +19,7 @@ export default function Home({clas}){
             <div className="box_left" >
                 <h1>¿PORQUÉ ELEGIRNOS?</h1>
                 <h2>Asesoramiento Profesional</h2>
-                <p>Trabajamos exclusivamente con criadores certificados y reconocidos a nivel nacional e internacional. Cada una de nuestras mascotas cuenta con un pedigree oficial que respalda su pureza y linaje.</p>
+                <p>Somos criadores reconocidos tanto a nivel nacional como internacional. Cada una de nuestras mascotas proviene de razas puras que garantizan su salud y bienestar, asegurando un origen confiable y de alta calidad.</p>
                 <div className='box_contador' >
                     <Counter targer='20' />
                     <p>Años dando felicidad</p>
