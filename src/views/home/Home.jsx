@@ -53,17 +53,6 @@ export default function Home({clas}){
                     furrycachorros@furrycachorros.com
                 </p>
                 <p>
-                    <a href="https://wa.link/wo5fbg"
-                       target='_blank' 
-                       rel='noreferrer' >
-                        <IconBrandWhatsapp className='icon_contact'
-                                       stroke={1} 
-                                       width={20}
-                                       />
-                        +54 911 5221-6139
-                    </a>
-                </p>
-                <p>
                     <a href="https://wa.link/imsfli"
                        target='_blank'
                        rel='noreferrer'>
@@ -72,6 +61,17 @@ export default function Home({clas}){
                                            width={20}
                                            />
                         +54 911 7145-2406
+                    </a>
+                </p>
+                <p>
+                    <a href="https://wa.link/wo5fbg"
+                       target='_blank' 
+                       rel='noreferrer' >
+                        <IconBrandWhatsapp className='icon_contact'
+                                       stroke={1} 
+                                       width={20}
+                                       />
+                        +54 911 5221-6139
                     </a>
                 </p>
                 <p>
