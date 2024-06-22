@@ -3,7 +3,7 @@ import { IconBrandWhatsapp } from '@tabler/icons-react';
 import { IconShield } from '@tabler/icons-react';
 import { IconMapPin } from '@tabler/icons-react';
 import { IconMail } from '@tabler/icons-react';
-import profile from './../../assets/profile.png'
+import logo from '../../../public/logo.webp';
 import './Navbar.css'
 // import Breeds from '../../views/breeds/Breeds';
 
@@ -34,7 +34,7 @@ export default function Navbar ({handleNavbar, clas}){
                             <h1>NUESTRAS RAZAS</h1>
                             <h2>Descubre algunas de las razas que ofrecemos:</h2>
                             <div className='box_pets_nav' >
-                                <img className='image_razas' src={profile} alt="" />
+                                <img className='image_razas' src={logo} alt="" />
                                 <div className='IconArrowRight_nav' >
                                     <IconArrowRight  stroke={2} />
                                 </div>
@@ -63,7 +63,7 @@ export default function Navbar ({handleNavbar, clas}){
                     </div> 
                 </div>
                 <div className='box_nav_image' >
-                    <img className='image_profile' src={profile} alt="profile nobleza canina" />
+                    <img className='image_profile' src={logo} alt="profile nobleza canina" />
                 </div>
             </div>
         </div>
