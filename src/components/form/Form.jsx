@@ -83,7 +83,9 @@ export default function Form(){
                 templateParams,
                 USER_ID
             ).then((response) => {
+              
               console.log('SUCCESS!', response.status, response.text)
+              setAlert('📧 Tu consulta se envió con exito ❤️ No olvides de revisar tu casilla de span 😉')
             }).catch((error) => {
               console.error('FAILED...', error)
             })
