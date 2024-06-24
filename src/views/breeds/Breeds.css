@@ -55,6 +55,21 @@
     background-color: #b6b6b6;
 }
 
+.IconX_box_breeds{
+    position: absolute;
+    overflow: hidden;
+    right: 5px;
+    top: 5px;
+}
+.IconX_breeds{
+    transition: all ease 200ms;
+}
+
+.IconX_breeds:hover{
+    transform: rotate(45deg);
+    transition: all ease 200ms;
+}
+
 @media
     (width < 720px){
         .container_breeds{

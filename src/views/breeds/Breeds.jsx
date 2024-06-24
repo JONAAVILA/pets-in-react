@@ -22,7 +22,9 @@ export default function Breeds({ handleShowBreeds }){
                     </div>
                 )
             })}
-            <IconX className='IconX' onClick={()=> handleShowBreeds()} stroke={2} />
+            <div className='IconX_box_breeds' >
+                <IconX className='IconX_breeds' onClick={()=> handleShowBreeds()} stroke={2} />
+            </div>
         </div>
     )
 }
