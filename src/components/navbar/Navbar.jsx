@@ -45,7 +45,7 @@ export default function Navbar ({handleNavbar, clas}){
                             <div className='box_pets_nav' >
                                 <div className='images_pets' >
                                     {breeds.map(dog => (
-                                        <img src={dog.image} />
+                                        <img key={dog.breed} src={dog.image} alt={dog.breed} />
                                     ))}
                                 </div>
                                 <div className='IconArrowRight_nav' onClick={()=> handleShowBreeds()} >

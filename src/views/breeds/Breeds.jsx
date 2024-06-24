@@ -8,8 +8,8 @@ export default function Breeds({ handleShowBreeds }){
         <div className='container_breeds' >
             {breeds.map(dog => {
                 return(
-                    <div className='box_breeds' >
-                        <img src={dog.image}/>
+                    <div key={dog.breed} className='box_breeds' >
+                        <img src={dog.image} alt={dog.breed} />
                         <h1>{dog.breed}</h1>
                         <p>Pedigrí: {dog.description}</p>
                         <ul>
