@@ -3,20 +3,12 @@ import { IconBrandWhatsapp } from '@tabler/icons-react';
 import { IconShield } from '@tabler/icons-react';
 import { IconMapPin } from '@tabler/icons-react';
 import { IconMail } from '@tabler/icons-react';
-import { useState } from 'react';
 import logo from '../../../public/logo.webp';
 import breeds from '../../utils/breeds';
 import Breeds from '../../views/breeds/Breeds';
 import './Navbar.css'
 
-export default function Navbar ({handleNavbar, clas}){
-
-    const [ showBreeds, setShowBreeds ] = useState(false)
-
-    const handleShowBreeds = ()=>{
-        if(showBreeds === false) setShowBreeds(true)
-        if(showBreeds === true) setShowBreeds(false)
-    }
+export default function Navbar ({handleNavbar, showBreeds, handleShowBreeds, clas}){
 
     return(
         <div className={`container_nav ${clas}`} >

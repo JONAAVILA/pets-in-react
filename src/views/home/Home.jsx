@@ -4,9 +4,10 @@ import { IconMail } from '@tabler/icons-react';
 import golden from '../../assets/golden.webp';
 import Counter from '../../components/counter/Counter';
 import Form from '../../components/form/Form';
+import breeds from '../../utils/breeds';
 import './Home.css'
 
-export default function Home({clas}){
+export default function Home({ clas, showBreeds, handleShowBreeds }){
 
     const currentYear = new Date().getFullYear();
 
@@ -39,6 +40,15 @@ export default function Home({clas}){
                     <h2>Salud y Bienestar</h2>
                     <p>Nos preocupamos por el bienestar de nuestras mascotas desde el primer momento. Todos nuestros animales pasan por rigurosos controles veterinarios y son entregados con sus vacunas al día, desparasitados y con un certificado de salud.</p>
                     <h2>Nuestras razas</h2>
+                    <div className='breeds_home' >
+                        <div>
+                            {breeds.map(dog => (
+                                <>
+                                    <img key={dog.breed} src={dog.image} alt={dog.breed} />
+                                </>
+                            ))} 
+                        </div>
+                    </div>
                 <Form/>
             </div>
         </div>

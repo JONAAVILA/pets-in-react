@@ -10,6 +10,7 @@ import './Landing.css';
 export default function Landing (){
 
     const [ clas, setClas ] = useState('off')
+    const [ showBreeds, setShowBreeds ] = useState(false)
 
     const handleNavbar = ()=>{
         if(clas === 'off'){
@@ -18,11 +19,16 @@ export default function Landing (){
             setClas('off')
         }
     }
+    
+    const handleShowBreeds = ()=>{
+        if(showBreeds === false) setShowBreeds(true)
+        if(showBreeds === true) setShowBreeds(false)
+    }
 
     return(
         <div className='container_root' >
             <div className="box_navbar_landing" >
-                <Navbar handleNavbar={handleNavbar} clas={clas} />
+                <Navbar showBreeds={showBreeds} handleShowBreeds={handleShowBreeds} handleNavbar={handleNavbar} clas={clas} />
             </div>
             <div className={`box_root ${clas}_root`}>
                 <div className="container_landing" >
@@ -63,7 +69,7 @@ export default function Landing (){
                         <img className={`beagle ${clas}_beagle`} src={beagle} alt="cachorro beagle" />
                     </div>
                 </div>
-                <Home clas={clas} />
+                <Home clas={clas} showBreeds={showBreeds} handleShowBreeds={handleShowBreeds} />
             </div>
         </div>
     )
