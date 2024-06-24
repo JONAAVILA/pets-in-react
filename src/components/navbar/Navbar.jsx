@@ -3,15 +3,24 @@ import { IconBrandWhatsapp } from '@tabler/icons-react';
 import { IconShield } from '@tabler/icons-react';
 import { IconMapPin } from '@tabler/icons-react';
 import { IconMail } from '@tabler/icons-react';
+import { useState } from 'react';
 import logo from '../../../public/logo.webp';
+import breeds from '../../utils/breeds';
+import Breeds from '../../views/breeds/Breeds';
 import './Navbar.css'
-// import Breeds from '../../views/breeds/Breeds';
 
 export default function Navbar ({handleNavbar, clas}){
 
+    const [ showBreeds, setShowBreeds ] = useState(false)
+
+    const handleShowBreeds = ()=>{
+        if(showBreeds === false) setShowBreeds(true)
+        if(showBreeds === true) setShowBreeds(false)
+    }
+
     return(
         <div className={`container_nav ${clas}`} >
-            {/* <Breeds/> */}
+            {showBreeds ? <Breeds handleShowBreeds={handleShowBreeds} /> : null}
             <div className='circle' /> 
             <div className='icon_menu2' onClick={handleNavbar} >
                 <svg className='icon_menu'
@@ -34,8 +43,12 @@ export default function Navbar ({handleNavbar, clas}){
                             <h1>NUESTRAS RAZAS</h1>
                             <h2>Descubre algunas de las razas que ofrecemos:</h2>
                             <div className='box_pets_nav' >
-                                <img className='image_razas' src={logo} alt="" />
-                                <div className='IconArrowRight_nav' >
+                                <div className='images_pets' >
+                                    {breeds.map(dog => (
+                                        <img src={dog.image} />
+                                    ))}
+                                </div>
+                                <div className='IconArrowRight_nav' onClick={()=> handleShowBreeds()} >
                                     <IconArrowRight  stroke={2} />
                                 </div>
                             </div>  

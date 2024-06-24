@@ -92,6 +92,16 @@
     }
 }
 
+.images_pets{
+    display: flex;
+    justify-content: center;
+    img{
+        border: solid 3px #f1f1f1;
+        border-radius: 50%;
+        margin-right: -20px;
+    }
+}
+
 .box_tittle_nav{
     height: 100%;
     h1{
@@ -260,6 +270,11 @@
     .box_info_nav{
         width: 90%;
         padding-right: 0;
+    }
+    .images_pets{
+        img{
+            width: 40px;
+        }
     }
     .box_tittle_nav{
         h1{

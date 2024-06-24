@@ -1,22 +1,28 @@
 import breeds from './../../utils/breeds';
+import { IconX } from '@tabler/icons-react';
 import './Breeds.css';
 
-export default function Breeds(){
-    console.log(breeds)
+export default function Breeds({ handleShowBreeds }){
+
     return(
         <div className='container_breeds' >
-        {breeds.map(dog => {
-            return(
-                <div className='box_breeds' >
-                    <div>
+            {breeds.map(dog => {
+                return(
+                    <div className='box_breeds' >
                         <img src={dog.image}/>
                         <h1>{dog.breed}</h1>
-                        <p>Edad: {dog.years}</p>
-                        <p>Pedigrí: {dog.pedigree}</p>
+                        <p>Pedigrí: {dog.description}</p>
+                        <ul>
+                        {dog.tips.map(tip => (
+                            <>
+                            <li>{tip}</li>
+                            </>
+                        ))}     
+                        </ul>
                     </div>
-                </div>
-            )
-        })}
+                )
+            })}
+            <IconX className='IconX' onClick={()=> handleShowBreeds()} stroke={2} />
         </div>
     )
 }
