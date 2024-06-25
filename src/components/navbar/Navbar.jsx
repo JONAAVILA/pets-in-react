@@ -6,6 +6,14 @@ import { IconMail } from '@tabler/icons-react';
 import logo from '../../../public/logo.webp';
 import breeds from '../../utils/breeds';
 import Breeds from '../../views/breeds/Breeds';
+import cencosud from '../../assets/payments/cencosud.webp'
+import mercadoPago from '../../assets/payments/mercado-pago.webp'
+import naranja from '../../assets/payments/naranja.webp'
+import pagoFacil from '../../assets/payments/pago-facil.webp'
+import rapiPago from '../../assets/payments/rapipago.webp'
+import visa from '../../assets/payments/visa.webp'
+import mastercard from '../../assets/payments/mastercard.webp'
+import american from '../../assets/payments/american.webp'
 import './Navbar.css'
 
 export default function Navbar ({handleNavbar, showBreeds, handleShowBreeds, clas}){
@@ -64,6 +72,20 @@ export default function Navbar ({handleNavbar, showBreeds, handleShowBreeds, cla
                         </div>
                         <div className='box_payment_nav' >
                             <h2>Métodos de pago</h2>
+                            <div className='icons_payment' >
+                                <div>
+                                    <img src={mercadoPago} alt="mercadoPago" />
+                                    <img src={naranja} alt="naranja" />
+                                    <img src={pagoFacil} alt="pagoFacil" />
+                                    <img src={rapiPago} alt="rapiPago" />
+                                </div>
+                                <div>
+                                    <img src={cencosud} alt="cencosud" />
+                                    <img src={visa} alt="visa" />
+                                    <img src={mastercard} alt="mastercar" />
+                                    <img src={american} alt="american" />
+                                </div>
+                            </div>
                         </div>
                     </div> 
                 </div>
