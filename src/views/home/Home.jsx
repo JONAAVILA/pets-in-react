@@ -1,4 +1,5 @@
 import { IconBrandWhatsapp } from '@tabler/icons-react';
+import { IconArrowRight } from '@tabler/icons-react';
 import { IconMapPin } from '@tabler/icons-react';
 import { IconMail } from '@tabler/icons-react';
 import golden from '../../assets/golden.webp';
@@ -7,7 +8,7 @@ import Form from '../../components/form/Form';
 import breeds from '../../utils/breeds';
 import './Home.css'
 
-export default function Home({ clas, showBreeds, handleShowBreeds }){
+export default function Home({ clas, handleShowBreeds }){
 
     const currentYear = new Date().getFullYear();
 
@@ -41,12 +42,15 @@ export default function Home({ clas, showBreeds, handleShowBreeds }){
                     <p>Nos preocupamos por el bienestar de nuestras mascotas desde el primer momento. Todos nuestros animales pasan por rigurosos controles veterinarios y son entregados con sus vacunas al día, desparasitados y con un certificado de salud.</p>
                     <h2>Nuestras razas</h2>
                     <div className='breeds_home' >
-                        <div>
+                        <div className='image_breeds_home' >
                             {breeds.map(dog => (
                                 <>
                                     <img key={dog.breed} src={dog.image} alt={dog.breed} />
                                 </>
                             ))} 
+                        </div>
+                        <div className='IconArrow_home' onClick={()=> handleShowBreeds()} >
+                            <IconArrowRight stroke={2} />
                         </div>
                     </div>
                 <Form/>

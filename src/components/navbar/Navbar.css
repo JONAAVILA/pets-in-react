@@ -137,8 +137,7 @@
 }
 .IconArrowRight_nav:hover{
     background-color: #cc3030;
-    transition: all ease 200ms;
-
+    transform: rotate(-45deg);
 }
 .image_razas{
     width: 80px;
@@ -289,9 +288,6 @@
         border-radius: 30px;
         padding-inline: 5px;
         margin-bottom: 10px;
-        .image_razas{
-            width: 40px;
-        }
         .IconArrowRight_nav{
             width: 40px;
             margin-right: 0;
