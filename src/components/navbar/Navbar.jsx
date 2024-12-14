@@ -55,7 +55,7 @@ export default function Navbar ({handleNavbar, showBreeds, handleShowBreeds, cla
                         </div>
                         <div className='compromise_nav' >
                             <h2><IconShield className='IconShield_nav' stroke={2} />Compromiso con la Transparencia</h2>
-                            <p>En Mascotas de Elite, valoramos la transparencia y la honestidad. Cada cliente recibe toda la documentación necesaria, incluyendo el pedigree y el historial médico de su nueva mascota. Además, estamos disponibles para resolver cualquier duda que puedas tener antes y después de la compra.</p>
+                            <p>En Mascotas de Elite, valoramos la transparencia y la honestidad. Además, estamos disponibles para resolver cualquier duda que puedas tener antes y después de la compra.</p>
                         </div>
                     </div>
                     <div className='box_contact_nav' >
